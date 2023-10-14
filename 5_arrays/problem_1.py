@@ -1,6 +1,21 @@
-# Imagine you're given an array A and an index i into A. The goal is to rearrange
-# the elements such that all elements less than A[i] (the "pivot") appear first,
-# followed by elements equal to the pivot, and then elements greater than the pivot.
+"""
+Problem Statement:
+
+Imagine you're given an array A and an index i into A. The goal is to rearrange the elements
+such that all elements less than A[i] (the "pivot") appear first, followed by elements equal
+to the pivot, and then elements greater than the pivot.
+
+The task is to write a program that takes an array and an index as input and rearranges the array
+according to the above-mentioned conditions.
+
+Example:
+    Given array A = [4, 9, 6, 8, 2, 7] and index i = 2 (A[i] = 6),
+    after rearrangement, the array should look something like [4, 2, 6, 9, 8, 7].
+
+Note: The elements can appear in any order within their respective group (i.e., less than, 
+equal to, or greater than the pivot).
+
+"""
 
 
 def dutch_flag_partition_1(pivot_index, A):
